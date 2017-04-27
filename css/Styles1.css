@@ -1,0 +1,73 @@
+body {
+	background-image:url(../images/background7.jpg);
+}
+
+#content {
+	margin-right: 600px;
+	margin-left: 150px;
+	background-color: #B0B0B0;
+	
+}
+
+h1 {
+	color: #860A2D;
+	font-size: 36px;
+	font-family: eater;
+	text-align:center;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+	
+}
+
+.formLayout
+{
+	padding: 10px;
+	width: 500px;
+	height: 450px;
+	text-align: center;	
+}
+
+.formLayout label, .formLayout input
+{
+    display: block;
+    width: 200px;
+    float: left;
+    margin-bottom: 10px;
+    color: #860A2D;
+    font-size: 18px;
+    font-family: eater;
+}
+
+.formLayout label
+{
+    text-align: right;
+    padding-right: 20px;
+}
+
+br
+{
+    clear: left;
+}
+#button{
+	align-content:center;
+}
+

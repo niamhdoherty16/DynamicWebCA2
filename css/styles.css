@@ -1,0 +1,30 @@
+#test
+{
+	border: 20px ridge pink;
+	outline: 10px solid maroon;
+	padding: 10px 30px 30px 30px;
+	margin-top: 95px;
+	margin-bottom: 40px;
+	margin-right: 500px;
+	margin-left: 115px;
+	background-color: #F9E5F4;
+	line-height: 25px;	
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+	
+body
+{
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 100px;
+	padding-left: 200px;
+	background-image:url(../images/background4.jpg);
+	background-size:cover;
+	}
+#progressBar{
+	width: 700px;
+	height: 40px;
+	background-color: #860A2D;
+			
+
+}

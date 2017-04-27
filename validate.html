@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>CA_2 Quiz</title>
+    <link rel="stylesheet" type="text/css" href="css/Styles1.css">
+</head>
+  <body>
+    <div id="content">
+      <div>
+        <h1 id="banner">Please Complete Form to Continue to Quiz</h1>
+      </div>
+        <div class="formLayout">
+          <form id="myForm" method="post" action="quiz.html" onsubmit="return validate(this)">
+            <label>Forename</label>
+              <input type="text" maxlength="32" name="forename"><br><br>
+            <label>Surname</label>
+              <td><input type="text" maxlength="32" name="surname"><br><br>
+            <label>Password</label>
+              <input type="text" maxlength="12" name="password"><br><br>
+            <label>Age</label>
+              <input type="text" maxlength="3"  name="age"><br><br>
+            <label>Email</label>
+              <input type="text" maxlength="64" name="email"><br><br>
+              <div id="button">
+            	 <href="/quiz.html"> <input  type="submit" value="Signup">
+           			 </div>
+          </form>
+        </div>
+    </div>
+</body>
+<script src="js/validate.js"></script>
+</html>
